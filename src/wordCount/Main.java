@@ -39,9 +39,21 @@ public class Main
 		{
 			public int compare(HashMap.Entry<String, Integer> o1, HashMap.Entry<String, Integer> o2)
 			{
-				return o1.getValue() - o2.getValue();
+				return o2.getValue() - o1.getValue();
 			}
 		});
+
+		System.out.println("\n*** Sorted ***\n");
+
+		
+		System.out.println(sortedMap + "\n");
+
+		for(int i = 0; i < 50; i++)
+		{
+			System.out.println(sortedMap.get(i));
+		}
+
+
 		
 	}
 }

@@ -1,3 +1,56 @@
+# Terminal Print-Out
+
+the=120
+and=106
+of=90
+to=83
+in=43
+right=33
+be=31
+article=30
+everyone=30
+or=30
+has=28
+shall=27
+rights=21
+his=21
+a=19
+any=18
+for=17
+1=14
+2=14
+by=13
+is=13
+human=12
+all=12
+as=11
+this=11
+equal=11
+freedom=11
+no=10
+one=10
+freedoms=10
+entitled=9
+which=9
+with=9
+protection=9
+law=9
+education=8
+nations=8
+have=8
+social=8
+are=8
+whereas=7
+free=7
+3=6
+at=6
+family=6
+other=6
+against=6
+fundamental=6
+declaration=6
+full=6
+
 # Project Top Word Counts in A String of Text
 
 A student that completes this project show that they can:
