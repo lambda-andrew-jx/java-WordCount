@@ -35,6 +35,8 @@ public class Main
       	ArrayList<HashMap.Entry<String, Integer>> sortedMap = new ArrayList<HashMap.Entry<String, Integer>>();
 		sortedMap.addAll(humanRights.entrySet());
 
+// Sorting by value
+
 		Collections.sort(sortedMap, new Comparator<Map.Entry<String, Integer>>()
 		{
 			public int compare(HashMap.Entry<String, Integer> o1, HashMap.Entry<String, Integer> o2)
@@ -54,6 +56,16 @@ public class Main
 		}
 
 
+// Sorting by alphabet
+
+		// Collections.sort(sortedMap, new Comparator<Map.Entry<String, Integer>>()
+		// {
+		// 	@Override
+		// 	public int compare(HashMap.Entry<String, Integer> o1, HashMap.Entry<String, Integer> o2)
+		// 	{
+		// 		return o1.compareToIgnoreCase(o2);
+		// 	}
+		// });
 		
 	}
 }
