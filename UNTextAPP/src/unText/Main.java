@@ -22,7 +22,7 @@ public class Main {
             }
             else 
             {
-                wordFrequency.wordcount.put(tempword, wordFrequency.wordcount.get(word) + 1);
+                wordFrequency.wordcount.put(tempword, wordFrequency.wordcount.get(tempword) + 1);
             }
         }
 
@@ -40,8 +40,10 @@ public class Main {
 
         Collections.reverse(sortedCount);
 
-
-       System.out.println("Print All");
-    //    wordFrequency.printAllWordCount();
+       System.out.println("Print top 50:");
+       for (int i = 0; i <= 50; i++)
+       {
+        System.out.println(sortedCount.get(i));
+       }
     }
 }
